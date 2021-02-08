@@ -1,6 +1,0 @@
-H:\Study\C#\Lab Task 1(8)sln\Lab Task 1(8)\bin\Debug\Lab Task 1(8).exe.config
-H:\Study\C#\Lab Task 1(8)sln\Lab Task 1(8)\obj\Debug\Lab Task 1(8).csprojResolveAssemblyReference.cache
-H:\Study\C#\Lab Task 1(8)sln\Lab Task 1(8)\bin\Debug\Lab Task 1(8).exe
-H:\Study\C#\Lab Task 1(8)sln\Lab Task 1(8)\bin\Debug\Lab Task 1(8).pdb
-H:\Study\C#\Lab Task 1(8)sln\Lab Task 1(8)\obj\Debug\Lab Task 1(8).exe
-H:\Study\C#\Lab Task 1(8)sln\Lab Task 1(8)\obj\Debug\Lab Task 1(8).pdb
