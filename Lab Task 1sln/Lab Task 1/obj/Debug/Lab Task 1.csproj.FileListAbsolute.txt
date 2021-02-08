@@ -1,0 +1,6 @@
+H:\Study\C#\Lab Task 1sln\Lab Task 1\bin\Debug\Lab Task 1.exe.config
+H:\Study\C#\Lab Task 1sln\Lab Task 1\bin\Debug\Lab Task 1.exe
+H:\Study\C#\Lab Task 1sln\Lab Task 1\bin\Debug\Lab Task 1.pdb
+H:\Study\C#\Lab Task 1sln\Lab Task 1\obj\Debug\Lab Task 1.csprojResolveAssemblyReference.cache
+H:\Study\C#\Lab Task 1sln\Lab Task 1\obj\Debug\Lab Task 1.exe
+H:\Study\C#\Lab Task 1sln\Lab Task 1\obj\Debug\Lab Task 1.pdb
