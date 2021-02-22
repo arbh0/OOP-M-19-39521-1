@@ -21,12 +21,24 @@ namespace Lab3
 
             Account a1 = new Account("Rashed", "55555", 10000);
             Console.Write("How much money do want to deposit? Enter Amount : ");
+            int rdeposit = int.Parse(Console.ReadLine());
+            a1.Deposit(rdeposit);
+            Console.Write("How much money do want to withdraw? Enter Amount : ");
+            int rwithdraw = int.Parse(Console.ReadLine());
+            a1.Withdraw(rwithdraw);
+            Console.WriteLine("----------------------------------------------");
+            /*Account a2 = new Account();
+            a2.setaccName("John");
+            a2.setacid("65555");
+            a2.setbalance(500);
+
+            Console.Write("How much money do want to deposit? Enter Amount : ");
             int mdeposit = int.Parse(Console.ReadLine());
-            a1.Deposit(mdeposit);
+            a2.Deposit(mdeposit);
             Console.Write("How much money do want to withdraw? Enter Amount : ");
             int mwithdraw = int.Parse(Console.ReadLine());
             a1.Withdraw(mwithdraw);
-            Console.WriteLine("----------------------------------------------");
+            Console.WriteLine("----------------------------------------------"); */
             
             Course c1 = new Course("OOP2", "CSC3302", 3);
             c1.ShowCourseInfo();
