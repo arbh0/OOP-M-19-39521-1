@@ -6,36 +6,38 @@ using System.Threading.Tasks;
 
 namespace Lab_5
 {
-    class Savings : Account
+    class Fixed : Account
     {
-        double minBal = 430;
-        public Savings() {}
-        public Savings(string acName, string acId, double balance) : base(acName, acId, balance) {}
+        int tenureYear = 4, year;
+        public Fixed() {}
+        public Fixed(string acName, string acId, double balance, int year) : base(acName, acId, balance)
+        {
+            this.year = year;
+        }
         new public void Deposit(double amount)
         {
             base.Deposit(amount);
         }
         new public void Withdraw(double amount)
         {
-            if ((base.Balance - amount) >= minBal)
+            if (tenureYear == this.year)
             {
                 base.Withdraw(amount);
             }
             else
             {
-                Console.WriteLine("Withdraw CAN NOT Possible. User Does Not Have Balance.");
-                Console.WriteLine();
+                
             }
         }
-        public void Transfer(double amount, Account acc)
+        new public void Transfer(double amount, Account acc)
         {
-            if ((base.Balance - amount) >= minBal)
+            if (tenureYear == this.year)
             {
                 base.Transfer(amount, acc);
             }
             else
             {
-                Console.WriteLine("Transfer CAN NOT Possible. User Does Not Have Balance.");
+                Console.WriteLine("Transfer CAN NOT Possible. Account Need To Reach Conditioned Time Period.");
                 Console.WriteLine();
             }
         }

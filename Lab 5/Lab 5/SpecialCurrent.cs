@@ -6,11 +6,15 @@ using System.Threading.Tasks;
 
 namespace Lab_5
 {
-    class Savings : Account
+    class SpecialCurrent : Account
     {
-        double minBal = 430;
-        public Savings() {}
-        public Savings(string acName, string acId, double balance) : base(acName, acId, balance) {}
+        double openBal, minBal;
+        public SpecialCurrent() { }
+        public SpecialCurrent(string acName, string acId, double balance) : base(acName, acId, balance)
+        {
+            openBal = balance;
+            minBal = openBal / 10;
+        }
         new public void Deposit(double amount)
         {
             base.Deposit(amount);
